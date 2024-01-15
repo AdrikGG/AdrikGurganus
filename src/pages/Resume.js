@@ -147,8 +147,8 @@ const Resume = () => {
             </li>
             <li className="resume-li">
               <p className="list-text">
-                Experienced: Angular.js, Python, Haskell, Chapel, Fortran, MPI,
-                OpenMP
+                Some Experience: Angular.js, Vue.js, Python, Haskell, Chapel,
+                Fortran, MPI, OpenMP
               </p>
             </li>
           </ul>

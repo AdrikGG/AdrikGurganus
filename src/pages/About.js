@@ -7,7 +7,7 @@ const About = () => {
       <figure>
         <img
           className="portrait"
-          src={require('../images/SwampManDrawing.png')}
+          src={require('../images/DrawnPortrait.png')}
           alt="Drawn profile of Adrik"
           width="605"
           height="709"
@@ -17,38 +17,52 @@ const About = () => {
       <div>
         <h2 className="experience">Background and Experience</h2>
         <p className="paragraph">
-          I am Adrik Gurganus (he / him). I'm a Computer Science undergrad in my
-          second to last term at PSU. I'm a well rounded programmer with my
-          strengths being algorithms and backend web development. I'm on GitHub,
-          @AdrikGG, where I have a couple of projects from over the years. One
-          of these projects is a fully functional instant messaging app that I
-          solo developed with the MERN stack for CS 300 Elements of Software
-          Engineering. The app allows users to add and remove friends, create
-          and delete rooms, and instant message other users while storing chat
-          history. It's relatively bare bones, but it was made in about two
-          months, so I'm pretty proud of how much I was able to get done.
-          Another project of mine is a geography quiz website that includes
-          multiple custom quizzes / games (currently finishing development).
-          It's a collaborative project that I've been working on with a couple
-          classmates and is also being developed with the MERN stack. On top of
-          that, I have been working on my capstone project since summer term
-          began. It's a mobile focused app being developed mostly with react
-          native, which has given me a chance to improve my frontend
-          capabilities as well as get experience with mobile development and
-          team workflows.
+          I am Adrik Gurganus (he / him). I am a Computer Science graduate,
+          having graduated with an Associates from PCC and a Bachelors of
+          Science in Computer Science from PSU in June 2023. I'm a well rounded
+          programmer with my strengths being algorithms and backend development
+          for websites. I'm on GitHub, @AdrikGG, where I have a few of projects
+          from over the years.
         </p>
         <p className="paragraph">
-          I am a moderator for a Discord server designed to help PCC and PSU
-          students study by connecting them with their classmates and others who
-          have previously taken their classes. I help make changes to the server
-          in response to updates, monitor chat rooms and communicate with
-          members, moderate content, and issue warnings or bans when necessary.
-          I also often set up and run game servers for friends using a Linux
-          machine I built and customized.
+          Much of my programming experience from PCC and PSU has been with C and
+          C++, though I shifted my focus to TypeScript and JavaScript in the
+          last year and a half of my schooling. From that focus, I've gained
+          experience with React, ReactNative, Express, Node and SQL and NoSQL
+          databases. Most of my web dev experience is in using the MERN stack
+          (MongoDB, Express, React, Node), though I have also used frameworks
+          such as Angular and Vue. I have experience styling web elements using
+          solely HTML and CSS, and solely using JSX and custom components with
+          inline styles and or Bootstrap, and a mix of all of the above. I have
+          designed apps for desktop and mobile use, though I most often style
+          apps responsively so that they are suitable for any device. I have
+          worked many times in solo and team environments, having developed
+          complete apps to exceed expectations in either.
+        </p>
+        <p className="paragraph">
+          Through my time in school, I've also gained some experience with a
+          handful of other programming languages including Java and Python,
+          parallel languages (Chapel and Fortran) and models (MPI and OpenMP),
+          and the functional language Haskell.
+        </p>
+        <p className="paragraph">
+          While in school, I often helped other CS students, mostly lower
+          division, as a Tutor. I was also a moderator for a Discord server
+          designed to help PCC and PSU students study by connecting them with
+          their classmates and others who have previously taken their classes. I
+          helped make changes to the server in response to updates, monitor chat
+          rooms and communicated with members, moderated content, and issued
+          warnings or bans when necessary. I also often set up and run game
+          servers for friends using a Linux machine I've built and customized.
         </p>
       </div>
       <div>
         <h2 className="hobbies">Hobbies</h2>
+        <p className="paragraph">
+          I like to build and fix computers. I've helped friends and family
+          budget and buy parts and construct their PCs. I've also fixed laptops
+          and audio equipment and replaced chips using soldering kits.
+        </p>
         <p className="paragraph">
           I like to listen to folk music from cultures and languages from all
           around the world. My favorites of what I have found as of yet have
@@ -62,7 +76,7 @@ const About = () => {
         <p className="paragraph">
           Another of my hobbies is learning about cultures and languages. Since
           2014 I have been learning Spanish on and off. It's a skill that
-          requires constant maintainance. At this time in my life, I can read
+          requires constant maintenance. At this time in my life, I can read
           Spanish decently well, but can't speak it as well as I used to. I have
           also dabbled in learning Dutch and French. At this point, my ambitions
           are to improve my Spanish and at some point learn Mongolian.
