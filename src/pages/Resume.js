@@ -53,14 +53,14 @@ const Resume = () => {
           </p>
           <div className="span-group">
             <span className="bold">
-              Pursuing Bachelor of Science in Computer Science,
+              Bachelor of Science in Computer Science,
             </span>
-            <span> Expected Graduation: March 2023</span>
+            <span> Graduation: March 2023</span>
           </div>
           <ul className="resume-ul">
             <li className="resume-li">
               <p className="list-text">
-                Academic Honors: President’s List (3 terms), 4.0 PSU GPA, 3.89
+                Academic Honors: President’s List (4 terms), 4.0 PSU GPA, 3.90
                 Cumulative GPA
               </p>
             </li>
@@ -73,8 +73,7 @@ const Resume = () => {
                     application. The application supported features such as user
                     accounts and authentication, user created chat rooms (in
                     which other users could be invited, given privileges or
-                    removed), direct messaging, friend lists, as well as other
-                    smaller features.
+                    removed), direct messaging, and friend lists.
                   </p>
                 </li>
                 <li className="resume-li">
@@ -86,13 +85,10 @@ const Resume = () => {
               </ul>
             </li>
           </ul>
-          <p className="resume-p">
-            Relevant Courses Completed (not including the Capstone
-            prerequisites):
-          </p>
+          <p className="resume-p">Courses of Note Completed:</p>
           <ul className="resume-ul">
             <li className="resume-li">
-              <p className="list-text">CS 410P Code Revision & Review</p>
+              <p className="list-text">Software Engineering Capstone</p>
             </li>
             <li className="resume-li">
               <p className="list-text">
@@ -100,10 +96,19 @@ const Resume = () => {
               </p>
             </li>
             <li className="resume-li">
-              <p className="list-text">ECE 341 Intro. to Computer Hardware</p>
+              <p className="list-text">CS 333 Intro. to Operating Systems</p>
+            </li>
+            <li className="resume-li">
+              <p className="list-text">CS 410P Code Revision & Review</p>
             </li>
             <li className="resume-li">
               <p className="list-text">CS 415P Parallel Programming</p>
+            </li>
+            <li className="resume-li">
+              <p className="list-text">CS 457 Functional Programming</p>
+            </li>
+            <li className="resume-li">
+              <p className="list-text">Math up to Calculus IV</p>
             </li>
           </ul>
         </div>
@@ -111,7 +116,7 @@ const Resume = () => {
           <h2 className="section-header">Work Experience</h2>
           <div className="span-group">
             <span className="bold">CS Tutor, </span>
-            <span>September 2018 to Present</span>
+            <span>September 2018 to 2023</span>
           </div>
           <ul className="resume-ul">
             <li className="resume-li">
@@ -123,36 +128,26 @@ const Resume = () => {
           </ul>
           <div className="span-group">
             <span className="bold">Home Restoration and Remodeling, </span>
-            <span>September 2016 to Present</span>
+            <span>September 2016 to December 2023</span>
           </div>
-          <ul className="resume-ul">
-            <li className="resume-li">
-              <p className="list-text">
-                Provide help to experts with moving materials, small scale
-                demolition, framing, sheetrocking, etc. Work on detailing
-                including painting, plastering, wood staining, caulking, and
-                whatever else may be needed.
-              </p>
-            </li>
-          </ul>
         </div>
         <div className="section">
           <h2 className="section-header">Technology Summary</h2>
           <ul className="resume-ul">
             <li className="resume-li">
               <p className="list-text">
-                High Intermediate Skill Level: C, C++, JavaScript, TypeScript,
-                React.js, Linux, Windows
+                Most Proficient: C++, JavaScript, TypeScript, React.js, React
+                Native, HTML, Linux, Windows
               </p>
             </li>
             <li className="resume-li">
               <p className="list-text">
-                Low Intermediate Skill Level: HTML, Java, CSS, Node.js, MongoDB
+                Proficient: C, Java, CSS, Express.js, Node.js, MongoDB
               </p>
             </li>
             <li className="resume-li">
               <p className="list-text">
-                Basic Skill Level: Express.js, Angular.js, Chapel, Fortran, MPI,
+                Experienced: Angular.js, Python, Haskell, Chapel, Fortran, MPI,
                 OpenMP
               </p>
             </li>
