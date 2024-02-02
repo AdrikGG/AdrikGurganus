@@ -42,14 +42,30 @@ const Projects = () => {
             what we had planned as possible.
           </p>
           <h3 className="section">Key Takeaways:</h3>
-          <p>Place Holder</p>
+          <p>
+            Our group self imposed the agile method for the development of this
+            app, including defining a rough scope, planning features by defining
+            plausible user stories that would justify each feature, defining the
+            architecture of the app, and getting together frequently for scrums
+            to discuss our progress and issues during our two week sprints. This
+            process taught me more about how to communicate my work verbally and
+            through documentation and how to respond to the progress of others
+            on my team.
+          </p>
+          <p>
+            Additionally, I gained some valuable leadership experience as I lead
+            development of more and more portions of the app. It was also a
+            great opportunity for me to improve my TypeScript, React / React
+            Native, algorithm and optimization skills.
+          </p>
           <h3 className="section">Tech:</h3>
           <p>TypeScript, React Native, Expo</p>
         </div>
         <div className="link">
           <p>
             I have permission to share this project for the purpose of
-            displaying my work, however, the repository must be kept private.
+            displaying my work, including version of the app (a couple updates
+            old) on my phone, however, the repository must be kept private.
           </p>
         </div>
       </div>
@@ -63,7 +79,21 @@ const Projects = () => {
           </p>
           <p>This project is currently a work in progress.</p>
           <h3 className="section">Key Takeaways:</h3>
-          <p>Place Holder</p>
+          <p>
+            While I had developed some precursors to this app, the web version
+            was initially a group project that included two others. I took the
+            role of lead developer, directing the project's overall development,
+            though not stopping anyone from implementing their own ideas. I
+            gained some great collaborative experience, working in a fast paced
+            environment, making executive decisions on how to limit scope to fit
+            our three week time frame.
+          </p>
+          <p>
+            Since the project was turned in, I have decided to continue working
+            on it, fixing bugs, adding features, and refactoring existing code.
+            I've used the project as an opportunity to expand my knowledge an
+            improve my skills in React and UI development.
+          </p>
           <h3 className="section">Tech:</h3>
           <p>
             JavaScript, MERN stack (Mongodb, Express, React, Node), CSS,
