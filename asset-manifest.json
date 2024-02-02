@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/AdrikGurganus/static/css/main.7ee4965b.css",
+    "main.js": "/AdrikGurganus/static/js/main.7d893b89.js",
+    "static/media/DrawnPortrait.png": "/AdrikGurganus/static/media/DrawnPortrait.7bef624ddf26f6b3927d.png",
+    "index.html": "/AdrikGurganus/index.html",
+    "main.7ee4965b.css.map": "/AdrikGurganus/static/css/main.7ee4965b.css.map",
+    "main.7d893b89.js.map": "/AdrikGurganus/static/js/main.7d893b89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7ee4965b.css",
+    "static/js/main.7d893b89.js"
+  ]
+}
