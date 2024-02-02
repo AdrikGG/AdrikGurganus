@@ -21,23 +21,23 @@ const About = () => {
           having graduated with an Associates from PCC and a Bachelors of
           Science in Computer Science from PSU in June 2023. I'm a well rounded
           programmer with my strengths being algorithms and backend development
-          for websites. I'm on GitHub, @AdrikGG, where I have a few of projects
-          from over the years.
+          for websites. I'm on GitHub, @AdrikGG, where I have a handful of
+          projects from over the years.
         </p>
         <p className="paragraph">
           Much of my programming experience from PCC and PSU has been with C and
           C++, though I shifted my focus to TypeScript and JavaScript in the
-          last year and a half of my schooling. From that focus, I've gained
-          experience with React, ReactNative, Express, Node and SQL and NoSQL
+          last year and a half of my degree. From that focus, I've gained
+          experience with React, React Native, Express, Node and SQL and NoSQL
           databases. Most of my web dev experience is in using the MERN stack
           (MongoDB, Express, React, Node), though I have also used frameworks
           such as Angular and Vue. I have experience styling web elements using
-          solely HTML and CSS, and solely using JSX and custom components with
-          inline styles and or Bootstrap, and a mix of all of the above. I have
-          designed apps for desktop and mobile use, though I most often style
-          apps responsively so that they are suitable for any device. I have
-          worked many times in solo and team environments, having developed
-          complete apps to exceed expectations in either.
+          solely HTML and CSS, and, alternatively, solely using JSX and custom
+          components with inline styles and or Bootstrap, and a mix of all of
+          the above. I have designed apps for desktop and mobile use, though I
+          most often style apps responsively so that they are suitable for any
+          device. I have worked many times in solo and team environments, having
+          developed complete apps and exceeding expectations.
         </p>
         <p className="paragraph">
           Through my time in school, I've also gained some experience with a
@@ -46,14 +46,17 @@ const About = () => {
           and the functional language Haskell.
         </p>
         <p className="paragraph">
-          While in school, I often helped other CS students, mostly lower
-          division, as a Tutor. I was also a moderator for a Discord server
-          designed to help PCC and PSU students study by connecting them with
-          their classmates and others who have previously taken their classes. I
-          helped make changes to the server in response to updates, monitor chat
-          rooms and communicated with members, moderated content, and issued
-          warnings or bans when necessary. I also often set up and run game
-          servers for friends using a Linux machine I've built and customized.
+          Throughout my time in college, I often helped other CS students,
+          mostly lower division, with their computer science and math classes as
+          a tutor. I was also a moderator for a Discord server designed to help
+          PCC and PSU students study by connecting them with additional
+          resources relevant to their projects and courses and with others who
+          were taking or had taken their class. I helped make changes to the
+          server in response to updates, monitor chat rooms and communicated
+          with members, moderated content, and issued warnings or bans when
+          necessary. I also often set up and run game servers for friends, often
+          writing scripts and mods, on a Linux machine I've built and
+          customized.
         </p>
       </div>
       <div>

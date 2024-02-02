@@ -15,18 +15,14 @@ function App() {
       <main className="container">
         <div className="content">
           <Routes>
-            <Route exact path="/IntroWebDevFinal/" element={<About />} />
-            <Route exact path="/IntroWebDevFinal/resume" element={<Resume />} />
+            <Route exact path="/AdrikGurganus/" element={<About />} />
+            <Route exact path="/AdrikGurganus/resume" element={<Resume />} />
             <Route
               exact
-              path="/IntroWebDevFinal/projects"
+              path="/AdrikGurganus/projects"
               element={<Projects />}
             />
-            <Route
-              exact
-              path="/IntroWebDevFinal/contact"
-              element={<Contact />}
-            />
+            <Route exact path="/AdrikGurganus/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>

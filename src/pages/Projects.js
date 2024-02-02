@@ -7,6 +7,7 @@ const Projects = () => {
       <div className="project">
         <h2 className="project-header">Capstone Project</h2>
         <div className="description">
+          <h3 className="section">Description:</h3>
           <p>
             I, along with the seven others in my capstone team, worked to
             develop an app that allows users to translate their medical
@@ -25,64 +26,31 @@ const Projects = () => {
             are made to make the process more user friendly and to minimize the
             chance that a user's inputs go unsaved without them knowing.
           </p>
+          <h3 className="section">Responsibilities:</h3>
           <p>
             Initially, my role for this project was to handle the research,
             design and implementation of most of the backend; the data
             structure, storage, optimization, integration with the language
             packs, and, of course, documentation and presentations for all my
-            work. I took on more responsibility in the project as time went on
-            and multiple members of the team consistently underdelivered. I
-            worked on bug fixing and rewriting insufficient frontend components,
-            creating missing frontend components, integrating existing
-            components with the backend and assisting in UI design and
-            implementation. I was also responsible for creating and testing the
-            production builds. In the end, I was responsible for a very large
-            portion of the app and it's code as only half our team put in much
-            work.
+            work. I took on more responsibility in the project as time went on.
+            I worked on bug fixing and rewriting insufficient frontend
+            components, creating missing frontend components, integrating
+            existing components with the backend and assisting in UI design and
+            implementation. I was also responsible for testing the production
+            builds. In the end, I was responsible for a very large portion of
+            the app and it's code as I took on more tasks to deliver as much of
+            what we had planned as possible.
           </p>
-          <h3 className="tech">Tech:</h3>
+          <h3 className="section">Key Takeaways:</h3>
+          <p>Place Holder</p>
+          <h3 className="section">Tech:</h3>
           <p>TypeScript, React Native, Expo</p>
         </div>
         <div className="link">
           <p>
             I have permission to share this project for the purpose of
-            displaying my work, however, the repo is to be kept private.
+            displaying my work, however, the repository must be kept private.
           </p>
-        </div>
-      </div>
-      <div className="project">
-        <h2 className="project-header">SendIt</h2>
-        <div className="description">
-          <p>
-            SendIt is an instant messaging app that I developed in the MERN
-            stack over the course of a month when first learning JavaScript. The
-            app uses authentication so that users can securely register an
-            account and login. When in the app, users are able to create chat
-            rooms, delete chat rooms, invite other users to their chat rooms
-            and, of course, send messages. The messages are saved within the
-            MongoDB database, providing a permanence to every chat room's
-            message history. Due to the use of authentication, done with
-            jsonwebtoken, users are only allowed to see and enter chat rooms
-            that they've created or have been invited to. Similarly, they are
-            allowed to access their own account information, but not any other
-            user's. Users were also able to delete their accounts and leave chat
-            rooms.
-          </p>
-          <p>
-            There is a lot about this project I would change or tweak if I were
-            to come back to it, and there is a lot that I'd add as well. I
-            showcase this project not because it's perfect, or even up to my
-            current standards, but because it demonstrates my ability to quickly
-            learn and adapt to complete a task. I'm quite proud of the result
-            especially considering the severe time constraints and lack of
-            assistance.
-          </p>
-          <h3 className="tech">Tech:</h3>
-          <p>JavaScript, MERN stack (Mongodb, Express, React, Node), CSS</p>
-        </div>
-        <div className="link">
-          <span>Checkout the project's code on </span>
-          <a href="https://github.com/AdrikGG/sendit">GitHub!</a>
         </div>
       </div>
       <div className="project">
@@ -91,49 +59,59 @@ const Projects = () => {
           <p>
             This project is a website that hosts a few geography quiz games and
             allows users to create accounts that will save their scores. There
-            are three quizzes as of now.
-          </p>
-          <p>
-            The first quiz shows players rotated silhouettes of countries one at
-            a time and has players guess the country by name. The second quiz
-            shows players a world map, the game selects a random country as the
-            target. The player's goal is to play hot and cold, guessing
-            countries, until they find the target. Each wrong guess colors the
-            guessed country based on its distance from the target on a gradient
-            from blue (far) to red (near). When the target is guessed, all
-            countries are colored in and the game ends. The third quiz is an
-            island identification game for the Malay archipelago. Players have
-            the option of picking one of five difficulties and a mode of play,
-            clicking or typing. The difficulty options choose an area threshold,
-            excluding smaller islands from play. The clicking mode gives the
-            player the name of islands, one at a time, requiring them to click
-            on that island. If they click the correct island, it fills in green,
-            if they skip, it fills in red. Ending the quiz early fills in all
-            unidentified islands with red. The typing mode simply allows players
-            to type any island in play in any order, filling in guessed islands
-            with green.
-          </p>
-          <p>
-            Users of the site also have the option of creating an account and
-            logging in to keep track of their scores and get put on the leader
-            board. Users are authenticated using jsonwebtoken, making sure they
-            can only manipulate their own accounts.
-          </p>
-          <p>
-            This has been a passion project that I have been working on bit by
-            bit for a while. I have developed early versions of the quizzes as
-            stand-alone apps using Java and C++. I combined them into a website,
-            rewriting the projects in JavaScript, as part of a school project.
-            Since then, I have continued development here and there, including
-            adding another quiz.
+            are three quizzes as of now, more are to be added in the future.
           </p>
           <p>This project is currently a work in progress.</p>
-          <h3 className="tech">Tech:</h3>
+          <h3 className="section">Key Takeaways:</h3>
+          <p>Place Holder</p>
+          <h3 className="section">Tech:</h3>
+          <p>
+            JavaScript, MERN stack (Mongodb, Express, React, Node), CSS,
+            Cloudinary
+          </p>
+        </div>
+        <div className="link">
+          <span>Learn more about the project by checking it out on </span>
+          <a href="https://github.com/AdrikGG/FullStackFinal">GitHub!</a>
+        </div>
+      </div>
+      <div className="project">
+        <h2 className="project-header">SendIt</h2>
+        <div className="description">
+          <p>
+            sendit is an instant messaging app that I developed in the MERN
+            stack over the course of a month while first learning JavaScript.
+          </p>
+          <h3 className="section">Key Takeaways:</h3>
+          <p>
+            There is a lot about this project I would change or tweak if I were
+            to come back to it, and there is a lot that I'd add as well. I
+            showcase this project not because it's perfect (it's far from it)
+            but because it demonstrates my ability to quickly learn and adapt to
+            complete a task. I'm quite proud of the result especially
+            considering the severe time constraints and lack of assistance.
+          </p>
+          <h3 className="section">Tech:</h3>
           <p>JavaScript, MERN stack (Mongodb, Express, React, Node), CSS</p>
         </div>
         <div className="link">
-          <span>Checkout the project's code on </span>
-          <a href="https://github.com/AdrikGG/FullStackFinal">GitHub!</a>
+          <span>Learn more about the project by checking it out on </span>
+          <a href="https://github.com/AdrikGG/sendit">GitHub!</a>
+        </div>
+      </div>
+      <div className="project">
+        <h2 className="project-header">Mandelbrot Set Visualizer</h2>
+        <div className="description">
+          <p>
+            An app for visualizing the Mandelbrot set fractal. The visualization
+            supports zooming and panning.
+          </p>
+          <h3 className="section">Tech:</h3>
+          <p>TypeScript, React</p>
+        </div>
+        <div className="link">
+          <span>Learn more about the project by checking it out on </span>
+          <a href="https://github.com/AdrikGG/Mandelbrot">GitHub!</a>
         </div>
       </div>
       <div className="project">
@@ -143,11 +121,11 @@ const Projects = () => {
             A collection of small JavaScript programs highlighting different
             aspects of JavaScript and full stack web development.
           </p>
-          <h3 className="tech">Tech:</h3>
+          <h3 className="section">Tech:</h3>
           <p>JavaScript, HTML, CSS, Bootstrap, Express, Pug</p>
         </div>
         <div className="link">
-          <span>Checkout the code on </span>
+          <span>Learn more about the project by checking it out on </span>
           <a href="https://github.com/AdrikGG/FullStackWebDev">GitHub!</a>
         </div>
       </div>
