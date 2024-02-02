@@ -101,6 +101,10 @@ const Projects = () => {
           </p>
         </div>
         <div className="link">
+          <span>Check out the project hosted </span>
+          <a href="https://adrikgg.github.io/GeoQuiz">here!</a>
+        </div>
+        <div className="link">
           <span>Learn more about the project by checking it out on </span>
           <a href="https://github.com/AdrikGG/FullStackFinal">GitHub!</a>
         </div>
@@ -125,6 +129,10 @@ const Projects = () => {
           <p>JavaScript, MERN stack (Mongodb, Express, React, Node), CSS</p>
         </div>
         <div className="link">
+          <span>Check out the project hosted </span>
+          <a href="https://adrikgg.github.io/sendit">here!</a>
+        </div>
+        <div className="link">
           <span>Learn more about the project by checking it out on </span>
           <a href="https://github.com/AdrikGG/sendit">GitHub!</a>
         </div>
@@ -138,6 +146,10 @@ const Projects = () => {
           </p>
           <h3 className="section">Tech:</h3>
           <p>TypeScript, React</p>
+        </div>
+        <div className="link">
+          <span>Check out the project hosted </span>
+          <a href="https://adrikgg.github.io/Mandelbrot">here!</a>
         </div>
         <div className="link">
           <span>Learn more about the project by checking it out on </span>
