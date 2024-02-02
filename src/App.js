@@ -1,4 +1,4 @@
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes, Navigate } from 'react-router-dom';
 import './App.css';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -15,14 +15,11 @@ function App() {
       <main className="container">
         <div className="content">
           <Routes>
-            <Route exact path="/AdrikGurganus/" element={<About />} />
-            <Route exact path="/AdrikGurganus/resume" element={<Resume />} />
-            <Route
-              exact
-              path="/AdrikGurganus/projects"
-              element={<Projects />}
-            />
-            <Route exact path="/AdrikGurganus/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/" element={<Navigate to="/about" />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </div>
