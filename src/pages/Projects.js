@@ -113,7 +113,7 @@ const Projects = () => {
         <h2 className="project-header">SendIt</h2>
         <div className="description">
           <p>
-            sendit is an instant messaging app that I developed in the MERN
+            SendIt is an instant messaging app that I developed in the MERN
             stack over the course of a month while first learning JavaScript.
           </p>
           <h3 className="section">Key Takeaways:</h3>
@@ -141,11 +141,31 @@ const Projects = () => {
         <h2 className="project-header">Mandelbrot Set Visualizer</h2>
         <div className="description">
           <p>
-            An app for visualizing the Mandelbrot set fractal. The visualization
-            supports zooming and panning.
+            An app for visualizing the Mandelbrot set fractal. There are three
+            visualizations, each supporting panning and zooming, one run
+            sequentially on the CPU, one parallelized on the CPU and one
+            parallelized on the GPU.
+          </p>
+          <h3 className="section">Key Takeaways:</h3>
+          <p>
+            This small hobby project was an exercise in optimization. I was
+            initially interested in simply rendering the stunning visuals of the
+            Mandelbrot set fractal and playing around with the math. However, my
+            initial naive approach left a lot to be desired performance wise
+            (while zooming). So, I decided this would be a fun project to
+            practice some frontend optimizations. I reduced the number of
+            operations per render to the bare minimum of what I could with my
+            knowledge of the math and React. Not quite satisfied with the
+            results, I did a deep dive into available JavaScript frameworks
+            compatible with React for parallelization. In the end I made two
+            parallel versions, one parallelized on the CPU using web workers
+            that was somewhat fast and allowed for a deep zoom (using the
+            precision of the JS `number` type), and another parallelized on the
+            GPU using WebGL that was very fast, though, with a much shallower
+            zoom due to WebGL's precision limitations.
           </p>
           <h3 className="section">Tech:</h3>
-          <p>TypeScript, React</p>
+          <p>TypeScript, React, WebGL</p>
         </div>
         <div className="link">
           <span>Check out the project hosted </span>

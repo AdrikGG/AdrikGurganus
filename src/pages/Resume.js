@@ -13,14 +13,14 @@ const Resume = () => {
             <li className="resume-li">
               <p className="list-text">
                 Experienced in object-oriented programming; developing, testing
-                and debugging code; designing interfaces; and administering
-                systems and networks.
+                and debugging code; designing interfaces; administering systems
+                and networks.
               </p>
             </li>
             <li className="resume-li">
               <p className="list-text">
                 Experience in designing and writing software using agile
-                methodology.
+                methodology as part of a scrum team.
               </p>
             </li>
             <li className="resume-li">
@@ -33,9 +33,10 @@ const Resume = () => {
         </div>
         <div className="section">
           <h2 className="section-header">Education</h2>
-          <p className="resume-p">
-            Portland Community College, Portland, Oregon
-          </p>
+          <div className="span-group">
+            <span className="bold">Portland Community College, </span>
+            <span>Portland, Oregon</span>
+          </div>
           <div className="span-group">
             <span className="bold">Associate of General Studies, </span>
             <span>Transferred to PSU: January 2021</span>
@@ -48,9 +49,11 @@ const Resume = () => {
               </p>
             </li>
           </ul>
-          <p className="resume-p">
-            Portland State University, Portland, Oregon
-          </p>
+          <br />
+          <div className="span-group">
+            <span className="bold">Portland State University, </span>
+            <span>Portland, Oregon</span>
+          </div>
           <div className="span-group">
             <span className="bold">
               Bachelor of Science in Computer Science,
@@ -73,7 +76,7 @@ const Resume = () => {
                     application. The application supported features such as user
                     accounts and authentication, user created chat rooms (in
                     which other users could be invited, given privileges or
-                    removed), direct messaging, and friend lists.
+                    removed) and direct messaging.
                   </p>
                 </li>
                 <li className="resume-li">
@@ -85,10 +88,17 @@ const Resume = () => {
               </ul>
             </li>
           </ul>
+          <br />
           <p className="resume-p">Courses of Note Completed:</p>
           <ul className="resume-ul">
             <li className="resume-li">
               <p className="list-text">Software Engineering Capstone</p>
+            </li>
+            <li className="resume-li">
+              <p className="list-text">CS 465P Full Stack Web Development</p>
+            </li>
+            <li className="resume-li">
+              <p className="list-text">CS 410 Intro. to Web Development</p>
             </li>
             <li className="resume-li">
               <p className="list-text">
@@ -105,9 +115,6 @@ const Resume = () => {
               <p className="list-text">CS 415P Parallel Programming</p>
             </li>
             <li className="resume-li">
-              <p className="list-text">CS 457 Functional Programming</p>
-            </li>
-            <li className="resume-li">
               <p className="list-text">Math up to Calculus IV</p>
             </li>
           </ul>
@@ -115,40 +122,71 @@ const Resume = () => {
         <div className="section">
           <h2 className="section-header">Work Experience</h2>
           <div className="span-group">
-            <span className="bold">CS Tutor, </span>
-            <span>September 2018 to 2023</span>
+            <span className="bold">Computer Science Tutor, </span>
+            <span>September 2018 to January 2023</span>
           </div>
           <ul className="resume-ul">
             <li className="resume-li">
               <p className="list-text">
-                Provide study help and guidance to students mostly in lower
-                division computer science courses.
+                Reviewed computer science and math class material with students
+                to support discovery of correct answers to problems.
+              </p>
+            </li>
+            <li>
+              <p className="list-text">
+                Tracked and analyzed student progress to provide relevant
+                feedback to students.
+              </p>
+            </li>
+            <li>
+              <p className="list-text">
+                Encouraged students with supportive language and patient
+                teaching approaches.
               </p>
             </li>
           </ul>
           <div className="span-group">
             <span className="bold">Home Restoration and Remodeling, </span>
-            <span>September 2016 to December 2023</span>
+            <span>September 2016 to January 2023</span>
           </div>
+          <ul className="resume-ul">
+            <li className="resume-li">
+              <p className="list-text">
+                Helped project managers develop work schedules for overall
+                projects and individual stages.
+              </p>
+            </li>
+            <li>
+              <p className="list-text">
+                Followed instructions from construction project managers and
+                supervisors.
+              </p>
+            </li>
+            <li>
+              <p className="list-text">
+                Collaborated with a small team of diverse skill sets.
+              </p>
+            </li>
+          </ul>
         </div>
         <div className="section">
           <h2 className="section-header">Technology Summary</h2>
           <ul className="resume-ul">
             <li className="resume-li">
               <p className="list-text">
-                Most Proficient: C++, JavaScript, TypeScript, React.js, React
-                Native, HTML, Linux, Windows
+                Most Proficient: JavaScript, TypeScript, React.js, React Native,
+                HTML, CSS, C++, Linux, Windows
               </p>
             </li>
             <li className="resume-li">
               <p className="list-text">
-                Proficient: C, Java, CSS, Express.js, Node.js, MongoDB
+                Proficient: C, Java, Express.js, Node.js, MongoDB
               </p>
             </li>
             <li className="resume-li">
               <p className="list-text">
-                Some Experience: Angular.js, Vue.js, Python, Haskell, Chapel,
-                Fortran, MPI, OpenMP
+                Some Experience: Angular.js, Vue.js, Spring Boot, Python,
+                Haskell, Chapel, Fortran, MPI, OpenMP
               </p>
             </li>
           </ul>
