@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/AdrikGurganus/static/css/main.7ee4965b.css",
-    "main.js": "/AdrikGurganus/static/js/main.ca2d6b96.js",
+    "main.js": "/AdrikGurganus/static/js/main.a1a95bd2.js",
     "static/media/DrawnPortrait.png": "/AdrikGurganus/static/media/DrawnPortrait.7bef624ddf26f6b3927d.png",
     "index.html": "/AdrikGurganus/index.html",
     "main.7ee4965b.css.map": "/AdrikGurganus/static/css/main.7ee4965b.css.map",
-    "main.ca2d6b96.js.map": "/AdrikGurganus/static/js/main.ca2d6b96.js.map"
+    "main.a1a95bd2.js.map": "/AdrikGurganus/static/js/main.a1a95bd2.js.map"
   },
   "entrypoints": [
     "static/css/main.7ee4965b.css",
-    "static/js/main.ca2d6b96.js"
+    "static/js/main.a1a95bd2.js"
   ]
 }
