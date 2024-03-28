@@ -48,6 +48,9 @@ const Resume = () => {
                 term)
               </p>
             </li>
+            <li className="resume-li">
+              <p className="list-text">3.84 GPA</p>
+            </li>
           </ul>
           <br />
           <div className="span-group">
@@ -63,29 +66,11 @@ const Resume = () => {
           <ul className="resume-ul">
             <li className="resume-li">
               <p className="list-text">
-                Academic Honors: President’s List (4 terms), 4.0 PSU GPA, 3.90
-                Cumulative GPA
+                Academic Honors: President’s List (4 terms)
               </p>
             </li>
             <li className="resume-li">
-              <p className="list-text">CS 300 Solo Project: </p>
-              <ul className="resume-ul">
-                <li className="resume-li">
-                  <p className="list-text">
-                    Project Scope: Worked solo to develop an instant messaging
-                    application. The application supported features such as user
-                    accounts and authentication, user created chat rooms (in
-                    which other users could be invited, given privileges or
-                    removed) and direct messaging.
-                  </p>
-                </li>
-                <li className="resume-li">
-                  <p className="list-text">
-                    Tools: Visual Studio, JavaScript, CSS, MERN Stack (MongoDB,
-                    Express.js, React.js, Node.js)
-                  </p>
-                </li>
-              </ul>
+              <p>4.0 University GPA, 3.90 Cumulative GPA</p>
             </li>
           </ul>
           <br />
@@ -103,6 +88,11 @@ const Resume = () => {
             <li className="resume-li">
               <p className="list-text">
                 CS 486 Intro. to Database Management Systems
+              </p>
+            </li>
+            <li className="resume-li">
+              <p className="list-text">
+                CS 300 Elements of Software Engineering
               </p>
             </li>
             <li className="resume-li">
