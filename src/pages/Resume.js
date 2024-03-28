@@ -70,7 +70,9 @@ const Resume = () => {
               </p>
             </li>
             <li className="resume-li">
-              <p>4.0 University GPA, 3.90 Cumulative GPA</p>
+              <p className="list-text">
+                4.0 University GPA, 3.90 Cumulative GPA
+              </p>
             </li>
           </ul>
           <br />
